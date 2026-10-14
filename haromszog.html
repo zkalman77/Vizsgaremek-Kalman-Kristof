@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Háromszög kerülete és területe</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Háromszög kerülete és területe</h1>
+        <label for="a">a oldal:</label>
+        <input type="number" id="a" step="any"> <br>
+        <label for="b">b oldal:</label>
+        <input type="number" id="b" step="any"> <br>
+        <label for="c">c oldal:</label>
+        <input type="number" id="c" step="any"> <br>
+        <label for="ma">a oldalhoz tartozó magasság:</label>
+        <input type="number" id="ma" step="any"> <br>
+        <button onclick="szamitas()">Számítás</button>
+        <div class="eredmeny" id="eredmeny"></div>
+    </div>
+
+    <script>
+        function szamitas() {
+            let a = Number(document.getElementById("a").value);
+            let b = Number(document.getElementById("b").value);
+            let c = Number(document.getElementById("c").value);
+            let ma = Number(document.getElementById("ma").value);
+
+            if (a <= 0 || b <= 0 || c <= 0 || ma <= 0 ||
+                a + b <= c || a + c <= b || b + c <= a) {
+                document.getElementById("eredmeny").innerHTML = "Hibás adatok!";
+                document.getElementById("eredmeny").style.background = "#ffebee";
+                return;
+            }
+            let kerulet = a + b + c;
+            let terulet = a * ma / 2;
+            document.getElementById("eredmeny").innerHTML =
+                "Kerület: " + kerulet + "<br>Terület: " + terulet;
+            document.getElementById("eredmeny").style.background = "#e8f5e9";
+        }
+    </script>
+</body>
+</html>
