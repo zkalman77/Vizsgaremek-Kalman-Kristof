@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop – Regisztráció</title>
+
+    <link rel="stylesheet" href="regisztracio.css">
+</head>
+
+<body>v
+    <main class="container">
+
+        <h1>Regisztráció</h1>
+
+        <p class="intro">Hozd létre TechShop fiókodat!</p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Személyes adatok</legend>
+
+                <label for="nev">Teljes név <span class="required">*</span></label>
+                <input type="text" id="nev" name="nev" required>
+
+                <label for="email">E-mail cím <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="jelszo">Jelszó <span class="required">*</span></label>
+                <input type="password" id="jelszo" name="jelszo" minlength="8" required>
+
+                <label for="jelszo2">Jelszó újra <span class="required">*</span></label>
+                <input type="password" id="jelszo2" name="jelszo2" minlength="8" required>
+
+                <label for="szuletes">Születési dátum</label>
+                <input type="date" id="szuletes" name="szuletes">
+
+                <label for="telefon">Telefonszám</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="+36 30 123 4567">
+
+                <p>Nem:</p>
+                <div class="choice">
+                    <label><input type="radio" name="nem" value="ferfi"> Férfi</label>
+                    <label><input type="radio" name="nem" value="no"> Nő</label>
+                    <label><input type="radio" name="nem" value="nem_adja_meg"> Nem szeretném megadni</label>
+                </div>
+
+                <label for="lakohely">Lakóhely</label>
+                <select id="lakohely" name="lakohely">
+                    <option value="">-- Válassz --</option>
+                    <option>Budapest</option>
+                    <option>Debrecen</option>
+                    <option>Szeged</option>
+                    <option>Miskolc</option>
+                    <option>Pécs</option>
+                    <option>Győr</option>
+                    <option>Egyéb</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Szállítási adatok</legend>
+
+                <label for="iranyitoszam">Irányítószám</label>
+                <input type="text" id="iranyitoszam" name="iranyitoszam">
+
+                <label for="telepules">Település</label>
+                <input type="text" id="telepules" name="telepules">
+
+                <label for="utca">Utca</label>
+                <input type="text" id="utca" name="utca">
+
+                <label for="hazszam">Házszám</label>
+                <input type="text" id="hazszam" name="hazszam">
+            </fieldset>
+
+            <fieldset class="check">
+                <legend>Beállítások</legend>
+
+                <label><input type="checkbox" name="hirlevel"> Feliratkozom a hírlevélre</label>
+
+                <label><input type="checkbox" name="aszf" required>
+                    Elfogadom az ÁSZF-et <span class="required">*</span>
+                </label>
+            </fieldset>
+
+            <div class="buttons">
+                <button type="submit">Regisztráció</button>
+                <button type="reset">Űrlap törlése</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
