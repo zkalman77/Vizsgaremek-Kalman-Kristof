@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autok", "autok\autok.csproj", "{B08D9EBC-537D-4B34-9F23-0382A04D48F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B08D9EBC-537D-4B34-9F23-0382A04D48F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08D9EBC-537D-4B34-9F23-0382A04D48F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08D9EBC-537D-4B34-9F23-0382A04D48F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08D9EBC-537D-4B34-9F23-0382A04D48F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1198FD9C-8035-4ED6-9BC5-B9A15D7D8382}
+	EndGlobalSection
+EndGlobal

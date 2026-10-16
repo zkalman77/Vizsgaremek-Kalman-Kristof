@@ -1,0 +1,11 @@
+opel,2022
+skoda,2019
+kia,2020
+ford,2019
+trabant,1988
+lada,1999
+aro,1977
+audi,2022
+bmw,2021
+citroen,2019
+dacia,2024

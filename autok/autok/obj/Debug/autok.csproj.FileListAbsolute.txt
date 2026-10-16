@@ -1,0 +1,5 @@
+C:\Users\Kálmán Kristóf\source\repos\autok\autok\obj\Debug\autok.csproj.AssemblyReference.cache
+C:\Users\Kálmán Kristóf\source\repos\autok\autok\obj\Debug\AutoRendezes.Form1.resources
+C:\Users\Kálmán Kristóf\source\repos\autok\autok\obj\Debug\autok.Properties.Resources.resources
+C:\Users\Kálmán Kristóf\source\repos\autok\autok\obj\Debug\autok.csproj.GenerateResource.cache
+C:\Users\Kálmán Kristóf\source\repos\autok\autok\obj\Debug\autok.csproj.CoreCompileInputs.cache
