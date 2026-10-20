@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vonat menetidő-számító</title>
+    <link rel="stylesheet" href="menetrendek.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Vonat menetidő-számító</h1>
+        <h3>Budapest-Vác vasútvonal</h3>
+
+        <div class="form-group">
+            <label for="indulas">Indulási állomás:</label>
+            <select id="indulas">
+                <option value="0" data-nev="Budapest-Nyugati" data-index="0">Budapest-Nyugati</option>
+                <option value="12" data-nev="Rákospalota-Újpest" data-index="1">Rákospalota-Újpest</option>
+                <option value="20" data-nev="Dunakeszi" data-index="2">Dunakeszi</option>
+                <option value="28" data-nev="Göd" data-index="3">Göd</option>
+                <option value="38" data-nev="Vác-Alsóváros" data-index="4">Vác-Alsóváros</option>
+                <option value="42" data-nev="Vác" data-index="5">Vác</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="erkezes">Érkezési állomás:</label>
+            <select id="erkezes">
+                <option value="0" data-nev="Budapest-Nyugati" data-index="0">Budapest-Nyugati</option>
+                <option value="12" data-nev="Rákospalota-Újpest" data-index="1">Rákospalota-Újpest</option>
+                <option value="20" data-nev="Dunakeszi" data-index="2">Dunakeszi</option>
+                <option value="28" data-nev="Göd" data-index="3">Göd</option>
+                <option value="38" data-nev="Vác-Alsóváros" data-index="4">Vác-Alsóváros</option>
+                <option value="42" data-nev="Vác" data-index="5" selected>Vác</option>
+            </select>
+        </div>
+
+        <button onclick="szamolMenetido()">Menetidő számítása</button>
+
+        <div id="eredmeny">A menetidő itt jelenik meg...</div>
+    </div>
+
+  <script>
+        function szamolMenetido() {
+            // Adatok kiolvasása a select elemekből[cite: 1, 2]
+            let indulasSelect = document.getElementById("indulas");
+            let erkezesSelect = document.getElementById("erkezes");
+
+            let indulas = Number(indulasSelect.value);
+            let erkezes = Number(erkezesSelect.value);
+
+            let indulasOption = indulasSelect.options[indulasSelect.selectedIndex];
+            let erkezesOption = erkezesSelect.options[erkezesSelect.selectedIndex];
+
+            let indulasNev = indulasOption.getAttribute("data-nev");
+            let erkezesNev = erkezesOption.getAttribute("data-nev");
+
+            let indulasIndex = Number(indulasOption.getAttribute("data-index"));
+            let erkezesIndex = Number(erkezesOption.getAttribute("data-index"));
+
+            let eredmenyDiv = document.getElementById("eredmeny");
+
+            // Azonos indulási és érkezési állomás ellenőrzése[cite: 2]
+            if (indulas === erkezes) {
+                eredmenyDiv.innerHTML = `<span class="figyelmeztetes">Figyelem: Azonos indulási és érkezési állomást választottál (${indulasNev})!</span>`;
+                return;
+            }
+
+            // Menetidő kiszámítása[cite: 1, 2]
+            let menetido = Math.abs(erkezes - indulas);
+
+            // Pluszfeladat: Megállók száma
+            let megallokSzama = Math.abs(erkezesIndex - indulasIndex) - 1;
+            if (megallokSzama < 0) megallokSzama = 0;
+
+            // Eredmény összeállítása
+            let szoveg = `<b>Indulás:</b> ${indulasNev}<br>`;
+            szoveg += `<b>Érkezés:</b> ${erkezesNev}<br>`;
+            szoveg += `<b>A vonat menetideje:</b> ${menetido} perc<br>`;
+            szoveg += `<b>Megállók száma:</b> ${megallokSzama} db`;
+
+            // Pluszfeladat: Hosszabb utazás ellenőrzése (> 30 perc)
+            if (menetido > 30) {
+                szoveg += `<br><br><span class="figyelmeztetes">Hosszabb utazás</span>`;
+            }
+
+            eredmenyDiv.innerHTML = szoveg;
+        }
+    </script>
+</body>
+</html>
