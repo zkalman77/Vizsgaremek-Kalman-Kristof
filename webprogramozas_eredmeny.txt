@@ -1,0 +1,27 @@
+WEBPROGRAMOZÁS – 20 FELADAT
+Név: Kálmán Kristóf
+Osztály: 13 IM
+Eredmény: 9/20 (45%)
+Kitöltve: 16/20
+Dátum: 2026. 11. 02. 9:12:37
+
+1. HIBÁS | Válasz: 1
+2. HIBÁS | Válasz: 3
+3. HELYES | Válasz: img
+4. HIBÁS | Válasz: 0
+5. HELYES | Válasz: select
+6. HIBÁS | Válasz: 2
+7. HELYES | Válasz: value
+8. HELYES | Válasz: 2
+9. HIBÁS | Válasz: color
+10. HELYES | Válasz: 1
+11. HIBÁS | Válasz: (üres)
+12. HIBÁS | Válasz: 0
+13. HELYES | Válasz: border-radius
+14. HIBÁS | Válasz: 2
+15. HIBÁS | Válasz: (üres)
+16. HELYES | Válasz: 1
+17. HIBÁS | Válasz: (üres)
+18. HELYES | Válasz: 1
+19. HIBÁS | Válasz: (üres)
+20. HELYES | Válasz: 1
