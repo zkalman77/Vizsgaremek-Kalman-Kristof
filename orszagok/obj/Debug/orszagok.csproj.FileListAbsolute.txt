@@ -1,0 +1,10 @@
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\bin\Debug\orszagok.exe.config
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\bin\Debug\orszagok.exe
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\bin\Debug\orszagok.pdb
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.csproj.AssemblyReference.cache
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.Form1.resources
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.Properties.Resources.resources
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.csproj.GenerateResource.cache
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.csproj.CoreCompileInputs.cache
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.exe
+C:\Users\Kálmán Kristóf\source\repos\orszagok\orszagok\obj\Debug\orszagok.pdb

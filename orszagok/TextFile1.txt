@@ -1,0 +1,8 @@
+Magyarország;Budapest;9500000
+Ausztria;Bécs;9200000
+Németország;Berlin;84000000
+Franciaország;Párizs;68000000
+Olaszország;Róma;58900000
+Spanyolország;Madrid;48000000
+Lengyelország;Varsó;37500000
+Szlovákia;Pozsony;5400000
