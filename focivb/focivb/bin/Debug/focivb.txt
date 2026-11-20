@@ -1,0 +1,22 @@
+1930;Uruguay;Uruguay
+1934;Olaszország;Olaszország
+1938;Franciaország;Olaszország
+1950;Brazília;Uruguay
+1954;Svájc;NSZK
+1958;Svédország;Brazília
+1962;Chile;Brazília
+1966;Anglia;Anglia
+1970;Mexikó;Brazília
+1974;NSZK;NSZK
+1978;Argentína;Argentína
+1982;Spanyolország;Olaszország
+1986;Mexikó;Argentína
+1990;Olaszország;NSZK
+1994;Egyesült Államok;Brazília
+1998;Franciaország;Franciaország
+2002;Dél-Korea és Japán;Brazília
+2006;Németország;Olaszország
+2010;Dél-Afrika;Spanyolország
+2014;Brazília;Németország
+2018;Oroszország;Franciaország
+2022;Katar;Argentína

@@ -1,0 +1,106 @@
+C# DOLGOZAT – TANÁRI JELENTÉS
+Név: Kálmán Kristóf
+Osztály: 13IM
+Kezdés: 2026-11-20T09:11:47.135Z
+Leadás: 2026-11-20T09:25:07.172Z
+Automatikus: 60/90
+Tanári értékelés: .../10
+Kikattintások: 0
+
+VÁLASZOK
+1. Mit ír ki a program?
+Válasz: 1
+Helyes: 2 | 0/5 pont
+
+2. Mi jelenik meg a konzolon?
+Válasz: 1
+Helyes: 5 | 5/5 pont
+
+3. Melyik üzenet jelenik meg?
+Válasz: 2
+Helyes: Újabb VB | 5/5 pont
+
+4. Hányszor fut le a ciklus?
+Válasz: 3
+Helyes: 4 | 5/5 pont
+
+5. Melyik a helyes egészszám-lista?
+Válasz: 1
+Helyes: List<int> szamok = new List<int>(); | 0/5 pont
+
+6. Mit ír ki a program?
+Válasz: 1
+Helyes: 8 | 5/5 pont
+
+7. Melyik utasítás adja hozzá a 2022 értéket?
+Válasz: 2
+Helyes: evek.Add(2022); | 5/5 pont
+
+8. Mit ír ki a program?
+Válasz: 3
+Helyes: 3 | 5/5 pont
+
+9. Melyik helyes osztálydefiníció?
+Válasz: 0
+Helyes: class Orszag { public string Nev { get; set; } } | 5/5 pont
+
+10. Melyik kód hoz létre Orszag objektumot?
+Válasz: 3
+Helyes: Orszag o = new Orszag(); | 0/5 pont
+
+11. Mi lesz a kimenet?
+Válasz: 2
+Helyes: 2018 | 5/5 pont
+
+12. Melyik deklaráció tárol több VB objektumot?
+Válasz: 1
+Helyes: List<VB> adatok = new List<VB>(); | 0/5 pont
+
+13. Melyik utasítás olvassa be egy fájl összes sorát?
+Válasz: 0
+Helyes: File.ReadAllLines("focivb.txt") | 5/5 pont
+
+14. Mit ír ki a program?
+Válasz: 1
+Helyes: Argentína | 5/5 pont
+
+15. Melyik utasítás ellenőrzi a fájl létezését?
+Válasz: 1
+Helyes: File.Exists("focivb.txt") | 0/5 pont
+
+16. Melyik utasítás írja felül a fájl tartalmát?
+Válasz: 3
+Helyes: File.WriteAllText("eredmeny.txt", "Kész"); | 5/5 pont
+
+17. Mi a szükséges javítás?
+Válasz: 2
+Helyes: Az add helyett Add kell | 0/5 pont
+
+18. Mi a probléma?
+Válasz: 1
+Helyes: Nem létező indexre hivatkozik | 5/5 pont
+
+19. Írj C# kódot, amely létrehoz egy List<int> listát, hozzáadja az 1930 és 2022 értékeket, majd kiírja a lista elemszámát!
+Válasz: Link<int> = new List<int>();
+List.add(1930);
+List.add(2022);
+Console.Writeline(Lista.count);
+Tanári pontozás szükséges
+
+20. Írj C# kódot, amely beolvassa a focivb.txt összes sorát, pontosvessző mentén feldarabolja őket, és kiírja az évszámot és a világbajnokot!
+Válasz: string[] sork = File.readAlllines(˝˝foci.txt˝);
+foreach (string sor in sorok)
+{
+string[] mezok = sor.Split(';')
+Console.Writeline($˝{mezok[0] - {mezok[1]}˝);
+}
+Tanári pontozás szükséges
+
+ESEMÉNYNAPLÓ
+2026-11-20T09:18:54.312Z Másolás
+2026-11-20T09:18:55.123Z Beillesztés
+2026-11-20T09:19:19.490Z Másolás
+2026-11-20T09:19:21.206Z Másolás
+2026-11-20T09:19:22.932Z Beillesztés
+2026-11-20T09:24:39.823Z Másolás
+2026-11-20T09:24:40.955Z Beillesztés

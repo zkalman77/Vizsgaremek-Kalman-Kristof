@@ -1,0 +1,14 @@
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\bin\Debug\net8.0\focivb.exe
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\bin\Debug\net8.0\focivb.deps.json
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\bin\Debug\net8.0\focivb.runtimeconfig.json
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\bin\Debug\net8.0\focivb.dll
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\bin\Debug\net8.0\focivb.pdb
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.AssemblyInfoInputs.cache
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.AssemblyInfo.cs
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.csproj.CoreCompileInputs.cache
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.dll
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\refint\focivb.dll
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.pdb
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\focivb.genruntimeconfig.cache
+C:\Users\Kálmán Kristóf\source\repos\focivb\focivb\obj\Debug\net8.0\ref\focivb.dll
